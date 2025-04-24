@@ -1,0 +1,56 @@
+.wellness-section {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .wellness-heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .wellness-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .wellness-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .wellness-card {
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .wellness-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .wellness-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #28a8e0;
+    margin-bottom: 8px;
+  }
+  
+  .wellness-description {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    font-size: 14px;
+    color: #28a8e0;
+    text-decoration: none;
+  }
+  

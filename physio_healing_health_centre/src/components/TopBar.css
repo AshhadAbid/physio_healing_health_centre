@@ -1,0 +1,40 @@
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .topbar-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #555;
+    border-right: 1px solid #eee;
+    padding-right: 20px;
+  }
+  
+  .topbar-item:last-child {
+    border-right: none;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #aaa;
+  }
+  
+  .title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .subtitle {
+    font-size: 13px;
+    color: #aaa;
+  }
+  

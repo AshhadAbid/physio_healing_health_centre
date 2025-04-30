@@ -60,13 +60,74 @@
   }
   
   .appointment-btn {
-    background-color: #75c8eb;
-    color: white;
+    background-color: #1c91c4;
+    color: rgb(168, 22, 22);
     font-weight: bold;
     border: none;
     border-radius: 30px;
     padding: 10px 20px;
     font-size: 14px;
     cursor: pointer;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-family: sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    position: relative;
+  }
+  
+  .nav-list a,
+  .dropdown-title {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 0;
+  }
+  
+  /* Dropdown */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 50%; /* move to center */
+    transform: translateX(-50%); /* shift back by half width */
+    top: 100%; /* directly below the Services button */
+    background-color: #06bdd1;
+    padding: 1rem 1.5rem;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    min-width: 250px;
+    text-align: left;
+  }
+  
+  .dropdown-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .dropdown-content a {
+    color: white !important;   /* Forces white text */
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    transition: padding-left 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    padding-left: 10px;
+    text-decoration: underline;
+  }
+  
+  /* 🔥 KEY FIX: Keep it open on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
   

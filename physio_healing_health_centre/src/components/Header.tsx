@@ -17,9 +17,22 @@ const Header = () => {
         <ul className="nav-list">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About Us</Link></li>
+          <div className="dropdown">
           <li><Link to="/services">Services</Link></li>
+          <div className="dropdown-content">
+            <li><Link to="/Physicaltherapy">Physical Therapy</Link></li>
+            <li><Link to="/Physicaltherapy">Orthopedic Therapy</Link></li>
+            <li><Link to="/Physicaltherapy">Massage Therapy</Link></li>
+            <li><Link to="/Physicaltherapy">Electrical Stimulation</Link></li>
+            <li><Link to="/Physicaltherapy">Ultrasound Therapy</Link></li>
+            <li><Link to="/Physicaltherapy">Extracorporeal Shock Wave</Link></li>
+            <li><Link to="/Physicaltherapy">Laser Therapy</Link></li>
+          </div>
+        </div>
           <li><Link to="/wellnesstips">Wellness Tips</Link></li>
           <li><Link to="/contact">Contact Us</Link></li>
+         
+
         </ul>
       </nav>
 

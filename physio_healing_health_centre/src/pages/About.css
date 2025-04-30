@@ -1,0 +1,66 @@
+.about-us-container {
+    padding: 60px 80px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    color: #333;
+  }
+  
+  .about-us-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .underline {
+    width: 60px;
+    height: 3px;
+    background-color: #3498db;
+    margin: 0 auto 40px auto;
+  }
+  
+  .about-us-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .column h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: #222;
+  }
+  
+  .column p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .image-column {
+    flex: 1;
+    text-align: center;
+    min-width: 280px;
+  }
+  
+  .image-column img {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cta-text {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #222;
+    line-height: 1.4;
+  }
+  

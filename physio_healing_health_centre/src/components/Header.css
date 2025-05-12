@@ -6,6 +6,17 @@
     background-color: white;
     border-bottom: 1px solid #f0f0f0;
   }
+
+  .header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
   
   .logo-section {
     display: flex;

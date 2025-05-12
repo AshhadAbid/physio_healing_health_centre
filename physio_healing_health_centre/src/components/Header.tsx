@@ -4,6 +4,7 @@ import './Header.css'; // External CSS file
 const Header = () => {
   return (
     <header className="header">
+      <div className="header-container">
       <div className="logo-section">
         <img src={'./public/logo512'} alt="Logo Icon" className="logo-icon" />
         <div className="logo-text">
@@ -36,7 +37,11 @@ const Header = () => {
         </ul>
       </nav>
 
-      <button className="appointment-btn">Book an Appointment</button>
+      <a href="tel:+923343655597" className="appointment-btn">
+  Book an Appointment
+</a>
+</div>
+
     </header>
   );
 };

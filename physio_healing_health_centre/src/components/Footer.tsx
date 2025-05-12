@@ -4,6 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="footer-container">
       <div className="footer-top">
         <div className="footer-icons">
           <a href="#"><i className="fab fa-facebook-f" /></a>
@@ -79,6 +80,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <span>2025 Copyright © Physio Healing Therapy. All Rights Reserved.</span>
         <span>Schedule your next <strong>Appointment</strong></span>
+      </div>
       </div>
     </footer>
   );

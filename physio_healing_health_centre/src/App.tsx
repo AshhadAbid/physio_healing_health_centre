@@ -9,6 +9,21 @@ import WellnessTips from "./pages/WellnessTips";
 import Services from "./pages/Services";
 import Physicaltherapy from "./pages/service_pages/Physicaltherapy";
 import WhatsappButton from "./components/Whatsappbutton";
+import CardiacRehabilition from "./pages/service_pages/CardiacRehabilition";
+import CerebalPalsy from "./pages/service_pages/CerebalPalsy";
+import ChestTherapy from "./pages/service_pages/ChestTherapy";
+import Chiropractic from "./pages/service_pages/Chiropractic";
+import FacialPalsyBellsPalsy from "./pages/service_pages/FacialPalsyBellsPalsy";
+import FrozenShoulderNerveCompression from "./pages/service_pages/FrozenShoulderNerveCompression";
+import JointMuscleRecovery from "./pages/service_pages/JointMuscleRecovery";
+import KneeAnklePain from "./pages/service_pages/KneeAnklePain";
+import Osteoarthritis from "./pages/service_pages/Osteoarthritis";
+import PainManagement from "./pages/service_pages/PainManagement";
+import PostSurgeryStroke from "./pages/service_pages/PostSurgeryStroke";
+import PosturalAlignment from "./pages/service_pages/PosturalAlignment";
+import RheumatoidArthritis from "./pages/service_pages/RheumatoidArthritis";
+import SportsInjuries from "./pages/service_pages/SportsInjuries";
+import Tendititis from "./pages/service_pages/Tendititis";
 
 const App = () => {
   return (
@@ -22,7 +37,21 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/WellnessTips" element={<WellnessTips />} />
-          <Route path="/Physicaltherapy" element ={<Physicaltherapy/>} />
+          <Route path="/CardiacRehabilition" element ={<CardiacRehabilition/>} />
+          <Route path="/CerebalPalsy" element ={<CerebalPalsy/>} />
+          <Route path="/ChestTherapy" element ={<ChestTherapy/>} />
+          <Route path="/Chiropractic" element ={<Chiropractic/>} />
+          <Route path="/FacialPalsyBellsPalsy" element ={<FacialPalsyBellsPalsy/>} />
+          <Route path="/FrozenShoulderNerveCompression" element ={<FrozenShoulderNerveCompression/>} />
+          <Route path="/JointMuscleRecovery" element ={<JointMuscleRecovery/>} />
+          <Route path="/KneeAnklePain" element ={<KneeAnklePain/>} />
+          <Route path="/Osteoarthritis" element ={<Osteoarthritis/>} />
+          <Route path="/PainManagement" element ={<PainManagement/>} />
+          <Route path="/PostSurgeryStroke" element ={<PostSurgeryStroke/>} />
+          <Route path="/PosturalAlignment" element ={<PosturalAlignment/>} />
+          <Route path="/RheumatoidArthritis" element ={<RheumatoidArthritis/>} />
+          <Route path="/SportsInjuries" element ={<SportsInjuries/>} />
+          <Route path="/Tendititis" element ={<Tendititis/>} />
 
 
         </Routes>

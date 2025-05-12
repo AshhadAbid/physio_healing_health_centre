@@ -94,13 +94,20 @@
     font-weight: bold;
   }
   
-  .appointment-btn {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background: #00bcd4;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-  }
+  .hours {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-btn {
+  margin-top: 20px; /* Increased spacing */
+  padding: 10px 20px;
+  background: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
   

@@ -7,13 +7,19 @@ import HeroSection from '../components/Hero';
 import Testimonials from '../components/Testimonials';
 import Whychooseus from '../components/Whychooseus';
 import HeroSlider from '../components/HeroSlider';
+import ClinicLocation from '../components/ClinicLocation';
+import Services from './Services';
+import Homeabout from '../components/Homeabout';
 
 const Home = () => {
   return (
     <>
     <div>
         <HeroSlider/>
+        <Services/>
         <Whychooseus/>
+        <Homeabout/>
+        <ClinicLocation/>
         <Testimonials />
     </div>
 

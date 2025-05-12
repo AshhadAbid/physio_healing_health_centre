@@ -10,7 +10,7 @@ const Header = () => {
         <div className="logo-text">
           <span className="physio">PHYSIO</span>
           <span className="healing">HEALING</span>
-          <div className="therapy">THERAPY</div>
+          <div className="therapy">CENTRE</div>
         </div>
       </div>
 
@@ -21,7 +21,7 @@ const Header = () => {
           <div className="dropdown">
           <li><Link to="/services">Services</Link></li>
           <div className="dropdown-content">
-            <li><Link to="/Physicaltherapy">Physical Therapy</Link></li>
+            <li><Link to="/CardiacRehabilition">Physical Therapy</Link></li>
             <li><Link to="/Physicaltherapy">Orthopedic Therapy</Link></li>
             <li><Link to="/Physicaltherapy">Massage Therapy</Link></li>
             <li><Link to="/Physicaltherapy">Electrical Stimulation</Link></li>

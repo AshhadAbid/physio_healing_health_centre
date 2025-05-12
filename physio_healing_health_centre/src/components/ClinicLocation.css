@@ -1,0 +1,36 @@
+.location-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.location-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.location-title span {
+  font-weight: bold;
+  color: #000;
+}
+
+.location-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.location-subtitle span {
+  color: #000;
+}
+
+.map-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

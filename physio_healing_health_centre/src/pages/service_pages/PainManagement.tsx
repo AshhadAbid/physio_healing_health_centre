@@ -2,11 +2,11 @@ import React from 'react';
 import './ServicePages.css';
 import { Link } from 'react-router-dom';
 
-const PhysicalTherapy = () => {
+const PainManagement = () => {
   return (
     <div className="therapy-container">
       <div className="therapy-main">
-        <h1>Physical Therapy</h1>
+        <h1>Pain Management</h1>
         <hr className="blue-line" />
         <h4 className="blue-heading">We provide Physical Therapy services</h4>
         <div className="therapy-grid">
@@ -44,21 +44,20 @@ const PhysicalTherapy = () => {
             <div className="sidebar-box">
               <h3>Our Services</h3>
               <ul>
-                <li><Link to="/Physicaltherapy">Pain Management</Link></li>
-                <li><Link to="/Physicaltherapy">Joint & Muscle Recovery</Link></li>
-                <li><Link to="/Physicaltherapy">Frozen Shoulder and Nerve Compression</Link></li>
-                <li><Link to="/Physicaltherapy">Postural Alignment</Link></li>
-                <li><Link to="/Physicaltherapy">Post-Surgery & Stroke Rehabilitation</Link></li>
-                <li><Link to="/Physicaltherapy">Knee and Ankle Pain Treatment</Link></li>
-                <li><Link to="/Physicaltherapy">Cardiac Rehabilitation</Link></li>
-                <li><Link to="/Physicaltherapy">Cerebral Palsy</Link></li>
-                <li><Link to="/Physicaltherapy">Tendititis</Link></li>
-                <li><Link to="/Physicaltherapy">Sports Injuries</Link></li>
-                <li><Link to="/Physicaltherapy">Chiropractic</Link></li>
-                <li><Link to="/Physicaltherapy">Facial Palsy & Bells Palsy</Link></li>
-                <li><Link to="/Physicaltherapy">Chest Therapy</Link></li>
-                <li><Link to="/Physicaltherapy">Osteoarthritis</Link></li>
-                <li><Link to="/Physicaltherapy">Rheumatoid Arthritis</Link></li>
+                <li><Link to="/JointMuscleRecovery">Joint & Muscle Recovery</Link></li>
+                <li><Link to="/FrozenShoulderNerveCompression">Frozen Shoulder and Nerve Compression</Link></li>
+                <li><Link to="/PosturalAlignment">Postural Alignment</Link></li>
+                <li><Link to="/PostSurgeryStroke">Post-Surgery & Stroke Rehabilitation</Link></li>
+                <li><Link to="/KneeAnklePain">Knee and Ankle Pain Treatment</Link></li>
+                <li><Link to="/CardiacRehabilition">Cardiac Rehabilitation</Link></li>
+                <li><Link to="/CerebalPalsy">Cerebral Palsy</Link></li>
+                <li><Link to="/Tendititis">Tendititis</Link></li>
+                <li><Link to="/SportsInjuries">Sports Injuries</Link></li>
+                <li><Link to="/Chiropractic">Chiropractic</Link></li>
+                <li><Link to="/FacialPalsyBellsPalsy">Facial Palsy & Bells Palsy</Link></li>
+                <li><Link to="/ChestTherapy">Chest Therapy</Link></li>
+                <li><Link to="/Osteoarthritis">Osteoarthritis</Link></li>
+                <li><Link to="/RheumatoidArthritis">Rheumatoid Arthritis</Link></li>
               </ul>
             </div>
             <div className="sidebar-box hours">
@@ -79,4 +78,4 @@ const PhysicalTherapy = () => {
   );
 };
 
-export default PhysicalTherapy;
+export default PainManagement;

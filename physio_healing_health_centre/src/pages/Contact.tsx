@@ -9,17 +9,17 @@ const Contact = () => {
 
       <div className="contact-top">
         <div className="contact-box">
-          <h3>Physio Healing Therapy</h3>
-          <p>6845 Pembroke Road Pembroke Pines, FL 33023</p>
+          <h3>Physiotherapy Health Centre</h3>
+          <p>151-M Block-2 Khalid Bin Waleed Road P.E.C.H.S Karachi</p>
 
           <p><strong>Phone Numbers</strong><br />
-            Main: + (954) 362-4802<br />
-            Line2: + (954) 391-8968<br />
-            Fax: + (305) 675-3311
+            Main: +92 (334) 3655597<br />
+            Line2: +92 (334) 3655597<br />
+            
           </p>
 
           <p><strong>Email Address</strong><br />
-            info@physiohealingtherapy.com
+            info@physiotherapyhealthcentre.com
           </p>
 
           <p className="cta">GET THERAPY. HEAL. THRIVE.</p>
@@ -42,12 +42,12 @@ const Contact = () => {
         <div className="hours-box">
           <h4>Opening <strong>Hours</strong></h4>
           <ul>
-            <li>Monday: 9:00 AM - 5:00 PM</li>
-            <li>Tuesday: 9:00 AM - 6:00 PM</li>
-            <li className="highlight">Wednesday: 9:00 AM - 6:00 PM</li>
-            <li>Thursday: 9:00 AM - 6:00 PM</li>
-            <li>Friday: 9:00 AM - 5:00 PM</li>
-            <li>Saturday: BY APPOINTMENT</li>
+            <li>Mon: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
+            <li>Tue: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
+            <li>Wed: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
+            <li>Thu: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
+            <li>Fri: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
+            <li>Sat: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
             <li>Sunday: CLOSED</li>
           </ul>
         </div>

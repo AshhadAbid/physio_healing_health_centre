@@ -1,7 +1,8 @@
 .services-section {
-    padding: 40px;
-    text-align: center;
-  }
+  padding: 40px 20px;
+  text-align: center;
+}
+
   
   .services-title {
     font-size: 36px;
@@ -19,13 +20,14 @@
   }
   
   .services-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  max-width: 960px; /* Limit total width */
+  margin: 40px auto 0; /* Center the grid horizontally */
+}
+
   .service-card {
     width: 300px;
     text-align: left;
@@ -81,3 +83,22 @@
     justify-items: center;
   }
   
+  .see-more-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.see-more-btn {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.see-more-btn:hover {
+  background-color: #0097a7;
+}

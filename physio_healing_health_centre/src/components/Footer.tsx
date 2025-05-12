@@ -15,18 +15,19 @@ const Footer = () => {
           <div>
             <i className="fas fa-map-marker-alt" /> 
             Visit Us Today! <br />
-            6845 Pembroke Rd., <br />Pembroke Pines, FL
+            151-M Block-2, <br />Khalid Bin Waleed Road P.E.C.H.S Karachi
           </div>
           <div>
             <i className="fas fa-phone-alt" /> 
             Give us a Call <br />
-            +1 (954) 362-4302 <br />
-            +1 (954) 508-6363
+            +92 (334) 3655597 <br />
+            +92 (334) 3655597
+
           </div>
           <div>
             <i className="fas fa-envelope" />
             Contact Us Today! <br />
-            Get Therapy. Heal. Thrive.
+            Get Your Treatment.
           </div>
         </div>
       </div>
@@ -35,7 +36,7 @@ const Footer = () => {
         <div className="footer-section">
           <h4>About Us</h4>
           <p>
-            At Physio Healing Therapy we care about you and your health and will do everything
+            At Physiotherapy Healing Centre we care about you and your health and will do everything
             in our power to ensure your healing treatment and recovery is successful.
           </p>
           <strong>YOUR HEALING PATH STARTS HERE</strong>
@@ -44,8 +45,6 @@ const Footer = () => {
           <h4>Our Therapy Center</h4>
           <ul>
             <li>About Us</li>
-            <li>FAQ Page</li>
-            <li>Patient Forms</li>
             <li>Wellness Tips</li>
             <li>All Our Services</li>
             <li>Book Appointment</li>
@@ -54,32 +53,41 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Our Services</h4>
           <ul>
-            <li>Physical Therapy</li>
-            <li>Orthopedic Therapy</li>
-            <li>Massage Therapy</li>
-            <li>Electrical Stimulation</li>
-            <li>Ultrasound Therapy</li>
-            <li>Extracorporeal Shock Wave</li>
-            <li>Laser Therapy</li>
+            <li>Cardiac Rehabilition</li>
+            <li>Cerebal Palsy</li>
+            <li>Chest Therapy</li>
+            <li>Chiropractic</li>
+            <li>Facial Palsy & Bells Palsy</li>
+            <li>Frozen Shoulder Nerve Compression</li>
+            <li>Joint Muscle Recovery</li>
+            <li>Knee & Ankle Pain</li>
+            <li>Osteoarthritis</li>
+            <li>Pain Management</li>
+            <li>Post Surgery Stroke</li>
+            <li>Postural Alignment</li>
+            <li>Rheumatoid Arthritis</li>
+            <li>Sports Injuries</li>
+            <li>Tendititis</li>
+
           </ul>
         </div>
         <div className="footer-section">
           <h4>Opening Hours</h4>
           <ul>
-            <li>Monday: 9:00 AM TO 5:00 PM</li>
-            <li>Tuesday: 9:00 AM TO 6:00 PM</li>
-            <li>Wednesday: 9:00 AM TO 6:00 PM</li>
-            <li><strong>Thursday: 9:00 AM TO 6:00 PM</strong></li>
-            <li>Friday: 9:00 AM TO 5:00 PM</li>
-            <li>Saturday: By Appointment</li>
+            <li>Mon: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
+            <li>Tue: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
+            <li>Wed: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
+            <li>Thu: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
+            <li>Fri: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
+            <li>Sat: 8:00 AM TO 12:00 PM And 6:00 PM TO 10:00 PM</li>
             <li>Sunday: Closed</li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <span>2025 Copyright © Physio Healing Therapy. All Rights Reserved.</span>
-        <span>Schedule your next <strong>Appointment</strong></span>
+        <span>2025 Copyright © Physiotherapy Healing Centre. All Rights Reserved.</span>
+        <span>Book your next <strong>Appointment</strong></span>
       </div>
       </div>
     </footer>

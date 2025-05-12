@@ -1,52 +1,110 @@
 import HeroSection from '../components/Hero';
-import React from 'react';
+import React, { useState } from 'react';
 import './Services.css';
 
 const services = [
   {
-    title: 'Physical Therapy',
-    description: 'We provide Physical Therapy services. Your personal physical therapy begins with a comprehensive evaluation of...',
+    title: 'Cardiac Rehabilition',
+    description: 'We provide Physical Therapy services...',
     image: '/images/physical-therapy.jpg',
-    link: '/Physicaltherapy',
+    link: '/CardiacRehabilition',
   },
   {
-    title: 'Orthopedic Therapy',
-    description: 'We provide Orthopedic services. Orthopedic therapy is a branch of physical therapy that focuses on...',
+    title: 'Cerebal Palsy',
+    description: 'We provide Orthopedic services...',
     image: '/images/orthopedic-therapy.jpg',
-    link: '/Physicaltherapy',
+    link: '/CerebalPalsy',
   },
   {
-    title: 'Extracorporeal Shock',
-    description: 'We provide Extracorporeal Shock Wave Therapy services. Extracorporeal Shock Wave Therapy...',
+    title: 'Chest Therapy',
+    description: 'We provide Extracorporeal Shock Wave Therapy...',
     image: '/images/extracorporeal-shock.jpg',
-    link: '/Physicaltherapy',
+    link: '/ChestTherapy',
   },
   {
-    title: 'Ultrasound Therapy',
+    title: 'Chiropractic',
     description: 'We provide Ultrasound Therapy services.',
     image: '/images/ultrasound-therapy.jpg',
-    link: '/Physicaltherapy',
+    link: '/Chiropractic',
   },
   {
-    title: 'Massage Therapy',
+    title: 'Facial Palsy & Bells Palsy',
     description: 'We provide Massage Therapy services.',
     image: '/images/massage-therapy.jpg',
-    link: '/Physicaltherapy',
+    link: '/FacialPalsyBellsPalsy',
   },
   {
-    title: 'Electrical Stimulation',
+    title: 'Frozen Shoulder Nerve Compression',
     description: 'We provide Electrical Stimulation Therapy.',
     image: '/images/electrical-stimulation.jpg',
-    link: '/Physicaltherapy',
+    link: '/FrozenShoulderNerveCompression',
+  },
+  {
+    title: 'Joint Muscle Recovery',
+    description: 'We provide Electrical Stimulation Therapy.',
+    image: '/images/electrical-stimulation.jpg',
+    link: '/JointMuscleRecovery',
+  },
+  {
+    title: 'Knee & Ankle Pain',
+    description: 'We provide Electrical Stimulation Therapy.',
+    image: '/images/electrical-stimulation.jpg',
+    link: '/KneeAnklePain',
+  },
+  {
+    title: 'Osteoarthritis',
+    description: 'We provide Electrical Stimulation Therapy.',
+    image: '/images/electrical-stimulation.jpg',
+    link: '/Osteoarthritis',
+  },
+  {
+    title: 'Pain Management',
+    description: 'We provide Electrical Stimulation Therapy.',
+    image: '/images/electrical-stimulation.jpg',
+    link: '/PainManagement',
+  },
+  {
+    title: 'Post Surgery Stroke',
+    description: 'We provide Electrical Stimulation Therapy.',
+    image: '/images/electrical-stimulation.jpg',
+    link: '/PostSurgeryStroke',
+  },
+  {
+    title: 'Postural Alignment',
+    description: 'We provide Electrical Stimulation Therapy.',
+    image: '/images/electrical-stimulation.jpg',
+    link: '/PosturalAlignment',
+  },
+  {
+    title: 'Rheumatoid Arthritis',
+    description: 'We provide Electrical Stimulation Therapy.',
+    image: '/images/electrical-stimulation.jpg',
+    link: '/RheumatoidArthritis',
+  },
+  {
+    title: 'Sports Injuries',
+    description: 'We provide Electrical Stimulation Therapy.',
+    image: '/images/electrical-stimulation.jpg',
+    link: '/SportsInjuries',
+  },
+  {
+    title: 'Tendititis',
+    description: 'We provide Electrical Stimulation Therapy.',
+    image: '/images/electrical-stimulation.jpg',
+    link: '/Tendititis',
   },
 ];
 
 const Services = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedServices = showAll ? services : services.slice(0, 6);
+
   return (
     <div className="services-section">
       <h2 className="services-title">Our Services</h2>
       <div className="services-grid">
-        {services.map((service, index) => (
+        {displayedServices.map((service, index) => (
           <div key={index} className="service-card">
             <div className="image-wrapper">
               <img src={service.image} alt={service.title} />
@@ -55,16 +113,20 @@ const Services = () => {
             <h3>{service.title}</h3>
             <p>{service.description}</p>
             <a className="find-more" href={service.link}>Find out More &rarr;</a>
-            
           </div>
         ))}
       </div>
-      <div>
-        <HeroSection/>
+
+      {/* Show More / Show Less Button */}
+      <div className="see-more-wrapper">
+        <button onClick={() => setShowAll(!showAll)} className="see-more-btn">
+          {showAll ? 'Show Less' : 'See More Services'}
+        </button>
       </div>
+
+      <HeroSection />
     </div>
   );
 };
 
 export default Services;
-
